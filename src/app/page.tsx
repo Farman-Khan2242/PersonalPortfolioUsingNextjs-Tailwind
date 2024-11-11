@@ -1,16 +1,17 @@
+/* eslint-disable react/no-unescaped-entities */
 import Image from "next/image"
 import introPIC from "@/../public/Dp02.png"
 import Link from "next/link"
 export default function Home(){
     return (
-        <div className="h-full w-full py-[50px] px-[50px] md:w-full md:h-fit  md:py-[100px] md:px-[40px] flex flex-col  justify-between gap-4 items-center md:flex md:flex-row xl:px-[100px] xl:py-[80px]">
-            <div className="text w-[100%] md:w-[100%] " >
+        <div className="h-full w-full py-[100px]  px-[30px] md:w-full md:h-fit  md:py-[100px] md:px-[40px] flex flex-col  justify-between gap-4 items-center md:flex md:flex-row xl:px-[100px] xl:pt-[100px] xl:pb-[20px]">
+            <div className="text w-[100%] md:w-[100%]" >
                 <span className="text-[28px] sm:text-[30px] md:text-[40px] xl:text-[46px]">Hello, it's Me</span>
-                <div className="text-[40px] sm:text-[42px] md:text-[60px] xl:text-[72px]">Farman Khan</div>
-                <span className="text-[24px] sm:text-[26px] md:text-[38px] xl:text-[44px]">I'm a <span className="text-[#FF8C00]">Frontend Developer</span></span>
+                <div className="text-[40px] sm:text-[42px] md:text-[60px] xl:text-[72px] font-[600] md:font-[500] xl:font-[500px]">Farman Khan</div>
+                <span className="text-[24px] sm:text-[26px] md:text-[38px] xl:text-[44px]">I'm a <span className="text-[#FF8C00] font-[600]">Frontend Developer</span></span>
                 <p className="w-[90%] text-justify md:w-[100%]">Who loves creating websites and web apps. I use technologies like HTML, CSS, JavaScript, React, and Next.js to build clean, fast, and easy-to-use sites. I’m always looking to improve my skills and make websites that people enjoy using.</p>
 
-                <div className="mt-5 flex gap-5">
+                <div className="mt-5 flex gap-5 justify-center md:justify-start xl:justify-start">
                     <div className="button h-[40px] w-[40px] rounded-[50%] border-[#FF8C00] border-[2.5px] flex justify-center items-center cursor-pointer p-[20px] lg:h-[50px] lg:w-[50px]">
                         <Link href='https://web.facebook.com/farmanProfileFacebook' target="_blank"><i className="fa-brands fa-facebook-f text-white text-[20px] md:text-[25px] lg:text-[30px]" ></i></Link>      
                     </div>
@@ -26,9 +27,13 @@ export default function Home(){
                 
                 
             </div>
-            <div className="picture">
-                <Image src={introPIC} alt="Introduvtion Picture" className="h-[90%] w-[90%] md:w-[100%] " />
+            <div className="picture flex justify-center items-center">
+                <Image src={introPIC} alt="Introduvtion Picture" className="h-[100%] w-[100%] md:w-[100%] " />
             </div>
         </div>
+
+
+
+
     )
 }

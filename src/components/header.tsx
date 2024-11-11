@@ -12,21 +12,20 @@ export default function Header() {
     };
 
     return (
-        <header className="h-[40px] w-full p-[5px] items-center flex justify-between sm:h-[50px] sm:w-full sm:flex sm:justify-between md:justify-between">
+        <header className="h-[40px] fixed w-full p-[10px] items-center flex justify-between sm:h-[50px] sm:w-full sm:flex sm:justify-between md:justify-between bg-[#1e3852] z-100 ">
             <div id="logo" className="text-[20px] relative left-2 sm:text-[25px] font-[500] font-sans md:text-[30px]">
                 Personal Portfolio
             </div>
 
             {/* Hamburger icon */}
-            <div onClick={toggleMenu} className="text-[35px] md:hidden mr-2 cursor-pointer hamburger-icon">
+            <div onClick={toggleMenu} className="text-[35px] md:hidden mr-2 cursor-pointer hamburger-icon mt-2">
                 ☰
             </div>
 
             {/* Navbar Links for large screens */}
-            <div className="w-[50%] hidden sm:hidden md:flex md:justify-evenly text-white">
+            <div className="w-[45%] hidden sm:hidden md:flex md:justify-evenly text-white">
                 <Link href='/' className="hover:text-[#FF8C00]">Home</Link>
                 <Link href='/About' className="hover:text-[#FF8C00]">About</Link>
-                <Link href='/Services' className="hover:text-[#FF8C00]">Services</Link>
                 <Link href='/Projects' className="hover:text-[#FF8C00]">Projects</Link>
                 <Link href='/Contact' className="hover:text-[#FF8C00]">Contact</Link>
             </div>
@@ -36,7 +35,6 @@ export default function Header() {
                 <div className="absolute top-[50px] right-0 w-[20%] bg-[#1e3852] text-white z-50 flex flex-col items-center space-y-1 py-2 md:hidden">
                     <Link href='/' className="py-4 hover:text-[#FF8C00]" onClick={toggleMenu}>Home</Link>
                     <Link href='/About' className="py-4 hover:text-[#FF8C00]" onClick={toggleMenu}>About</Link>
-                    <Link href='/Services' className="py-4 hover:text-[#FF8C00]" onClick={toggleMenu}>Services</Link>
                     <Link href='/Projects' className="py-4 hover:text-[#FF8C00]" onClick={toggleMenu}>Projects</Link>
                     <Link href='/Contact' className="py-4 hover:text-[#FF8C00]" onClick={toggleMenu}>Contact</Link>
                 </div>
