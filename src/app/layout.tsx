@@ -3,10 +3,8 @@ import localFont from "next/font/local";
 import "./globals.css";
 import { Montserrat } from 'next/font/google'
 import Header from "@/components/header";
-import { Roboto } from "next/font/google";
 
 const montserrat = Montserrat({subsets: ['latin'], weight: '400'});
-const roboto = Roboto({subsets: ['latin'], weight: '400'});
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",

@@ -1,5 +1,4 @@
 import Link from "next/link"
-import Image from "next/image"
 export default function Projects(){
     return (
         <div className="pt-[100px] md:px-[10px] gap-4 flex flex-col justify-center items-center pb-[50px]">
