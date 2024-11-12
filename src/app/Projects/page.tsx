@@ -8,7 +8,7 @@ export default function Projects(){
                 <div>
                     <Link href='https://todo-list-wine-zeta.vercel.app/' target="_blank" className="w-[100%] hover:w-[99.70%] transition-all flex  border-2 border-transparent flex-col gap-2 justify-center items-center hover:border-white p-[15px]"  style={{transition:'all 0.2s linear' }}>
                         <h2 className="font-bold text-[25px] md:text-[25px] text-[#FF8C00] tracking-[2px]">Todo List</h2>
-                        <div className="shadowWhite  h-[250px]  w-[100%] bg-cover bg-center" style={{backgroundImage: "url('/TodoList.PNG')"}}>
+                        <div className="shadowWhite  h-[250px]  w-[100%] bg-cover bg-center" style={{backgroundImage: "url('/TodoList.png')"}}>
                         </div> 
                     </Link>
                 </div>
@@ -16,15 +16,15 @@ export default function Projects(){
                 <div>
                     <Link href='/' target="_blank" className="w-[100%] hover:w-[99.70%] transition-all flex  border-2 border-transparent flex-col gap-2 justify-center items-center hover:border-white p-[20px]" style={{transition:'all 0.2s linear' }}>
                         <h2 className="font-bold text-[25px] md:text-[30px] tracking-[2px] text-[#FF8C00]">Portfolio</h2>
-                        <div className="shadowBlack  h-[250px] w-[100%] bg-cover shadow-white" style={{backgroundImage: "url('/PersonalPortfolio.PNG')"}}>
+                        <div className="shadowBlack  h-[250px] w-[100%] bg-cover shadow-white" style={{backgroundImage: "url('/PersonalPortfolio.png')"}}>
                             
                         </div>
                     </Link>
                 </div>
                 <div>
                     <Link href='https://github.com/Farman-Khan2242/CLI_NumberGuessingGame' target="_blank" className="w-[100%] hover:w-[99.70%] transition-all flex  border-2 border-transparent flex-col gap-2 justify-center items-center hover:border-white p-[20px]" style={{transition:'all 0.2s linear' }}>
-                        <h2 className="font-bold text-[20px] md:text-[24px] tracking-[2px] text-[#FF8C00]">CLI Number Quessing Game</h2>
-                        <div   className=" shadowBlack  h-[250px] w-[100%] bg-cover shadow-white " style={{backgroundImage: "url('/NumberGuessingGame.PNG')"}}>
+                        <h2 className="font-bold text-[20px] md:text-[22px] tracking-[2px] text-[#FF8C00]">CLI Number Quessing Game</h2>
+                        <div   className=" shadowBlack  h-[250px] w-[100%] bg-cover shadow-white " style={{backgroundImage: "url('/NumberGuessingGame.png')"}}>
                             
                         </div>
                     </Link>
@@ -32,7 +32,7 @@ export default function Projects(){
                 <div>
                     <Link href='https://github.com/Farman-Khan2242/CLI_Number_Cutting_Game' target="_blank" className="w-[100%] hover:w-[99.70%] transition-all flex  border-2 border-transparent flex-col gap-2 justify-center items-center hover:border-white p-[20px]" style={{transition:'all 0.2s linear' }}>
                         <h2 className="font-bold text-[25px] md:text-[25px] tracking-[2px] text-[#FF8C00]">CLI Number Cut Game</h2>
-                        <div className="shadowBlack  h-[250px] w-[100%] bg-cover shadow-white" style={{backgroundImage: "url('/NumberCutGame.PNG')"}}>
+                        <div className="shadowBlack  h-[250px] w-[100%] bg-cover shadow-white" style={{backgroundImage: "url('/NumberCutGame.png')"}}>
                             
                         </div>
                     </Link>
