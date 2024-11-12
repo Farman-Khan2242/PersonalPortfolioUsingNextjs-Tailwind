@@ -23,7 +23,7 @@ export default function Projects(){
                 </div>
                 <div>
                     <Link href='https://github.com/Farman-Khan2242/CLI_NumberGuessingGame' target="_blank" className="w-[100%] hover:w-[99.70%] transition-all flex  border-2 border-transparent flex-col gap-2 justify-center items-center hover:border-white p-[20px]" style={{transition:'all 0.2s linear' }}>
-                        <h2 className="font-bold text-[20px] md:text-[22px] tracking-[2px] text-[#FF8C00]">CLI Number Quessing Game</h2>
+                        <h2 className="font-bold text-[20px] md:text-[22px] tracking-[2px] text-[#FF8C00] text-center">CLI Number Quessing Game</h2>
                         <div   className=" shadowBlack  h-[250px] w-[100%] bg-cover shadow-white " style={{backgroundImage: "url('/NumberGuessingGame.png')"}}>
                             
                         </div>
@@ -31,7 +31,7 @@ export default function Projects(){
                 </div>
                 <div>
                     <Link href='https://github.com/Farman-Khan2242/CLI_Number_Cutting_Game' target="_blank" className="w-[100%] hover:w-[99.70%] transition-all flex  border-2 border-transparent flex-col gap-2 justify-center items-center hover:border-white p-[20px]" style={{transition:'all 0.2s linear' }}>
-                        <h2 className="font-bold text-[25px] md:text-[25px] tracking-[2px] text-[#FF8C00]">CLI Number Cut Game</h2>
+                        <h2 className="font-bold text-[25px] md:text-[25px] tracking-[2px] text-[#FF8C00] text-center">CLI Number Cut Game</h2>
                         <div className="shadowBlack  h-[250px] w-[100%] bg-cover shadow-white" style={{backgroundImage: "url('/NumberCutGame.png')"}}>
                             
                         </div>
