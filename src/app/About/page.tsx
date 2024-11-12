@@ -1,9 +1,10 @@
-import Image from "next/image"  
+import Image from "next/image"
+import AboutPicture from '@/../public/writing.webp'  
 export default function About(){
     return ( 
         <div className="pt-[100px] pl-[30px] pb-[30px] pr-[30px] sm:px-[60px] flex gap-[20px] md:flex md:flex-row-reverse md:pt-[150px] md:pl-[90px] justify-center flex-col-reverse ">
             <div className="flex justify-center items-center md:flex-1 xl:flex-1">
-                <Image src='/writing.WEBP' alt="About" width={400} height={400} className="sm:h-[100%] sm:w-[100%] md:h-[100%]  md:w-[100%] lg:h-[100%] lg:w-[100%]  xl:h-[90%] xl:w-[90%]"  />
+                <Image src={AboutPicture} alt="About" width={400} height={400} className="sm:h-[100%] sm:w-[100%] md:h-[100%]  md:w-[100%] lg:h-[100%] lg:w-[100%]  xl:h-[90%] xl:w-[90%]"  />
             </div>
 
             <div className="w-full md:w-[60%] text-justify xl:w-[50%]">
